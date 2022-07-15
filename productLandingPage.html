@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jonathan LKs Website!</title>
+        <style>
+            body {
+                font-size: 16px;
+                font-family: Helvetica, sans-serif;
+                padding: 20px
+            }
+            #navbar {
+                position: fixed; 
+                top: 0px;
+                left: 0px; 
+                width: 100%;
+                background-color: #767676;
+                font-size: 16px;
+                font-family: Helvetica, sans-serif;
+            }
+            nav ul {
+                margin: 0px;
+                padding: 5px 0px 5px 30px;
+            }
+            nav li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            #header {
+                position: fixed;
+                top: 28px;
+                left: 0;
+                min-height: 25px;
+                width: 100%;;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: rgb(255, 255, 255);
+            }
+            #nav-img {
+                position: relative;
+                display: flex;
+                width: 100%;
+            }
+            #nav-bar {
+                position: relative;
+                top: 0px;
+                left: 0px; 
+                width: 60%;
+                font-size: 16px;
+                font-family: Helvetica, sans-serif;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            main {
+                padding: 20px;
+            }
+            form {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+            }
+        </style>
+    </head>
+        <body>
+            <header> <!--My websites header, including navbar etc-->
+                <nav id="navbar"> 
+                  <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/certificates.html">Certificates</a></li>
+                  </ul>
+                </nav>
+            </header> <!--FreeCodeCamps required header with these id values etc.-->
+            <header id="header">
+                <img id="header-img" src="" alt="logo"/>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#why-us" class="nav-link">Nav Link 1</a></li>
+                        <li><a href="#product" class="nav-link">Nav Link 2</a></li>
+                        <li><a href="#pricing" class="nav-link">Nav Link 3</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+            <h1>Product Name</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required/>
+                <input id="submit" type="submit" value="Submit"/>
+              </form>
+            <h3 id="why-us">Why us?</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur.
+            </p>
+            <h3 id="product">About the Product</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur.
+            </p>
+            <h3 id="pricing">Pricing Plans</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur.
+            </p>
+            <iframe id="video" height="200" src="https://www.youtube-nocookie.com/embed/" frameborder="0" allowfullscreen></iframe>
+            </main>
+        </body>
+</html>
